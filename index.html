@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+   <style>
+    /* General Reset */
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7e7;
+    color: #343336;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Header */
+header {
+    background: #120fd3;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+   text-align: center;
+}
+
+nav ul.dropdown {
+    list-style: none;
+    padding: 10px;
+    text-align:right;
+}
+
+nav ul.dropdown > li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul.dropdown a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: right;
+}
+
+nav ul.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #141414;
+    min-width: 160px;
+    border-radius:30%;
+    text-align:  left;
+}
+
+nav ul.dropdown-content li {
+    display: block;
+}
+
+nav ul.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+}
+
+#about img {
+    
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 150px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Projects Section */
+.hobbies{border-radius:30%;}
+#hobbie  {
+    padding: 40px 0;
+    background: #f7f5f5;
+}
+
+#hobbie h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hobbie {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.hobbie img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 200%;
+}
+
+.hobbie-description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hobbieh3 {
+    margin-bottom: 10px;
+}
+
+.hobbie-content p {
+    color: #555;
+    font-size: 16px;
+    font-family:montserrat;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.hobbie-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+border-radius: 30%;
+
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 40px 0;
+    background: #fff;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    width: 80%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #444;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+ .button{color: #120fd3;
+
+
+}
+.dropdown-content li:hover{ 
+   background-color: #961717;
+   color: #961717;
+}
+
+         
+
+
+
+
+
+   </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1> ORESI MATTHEW KEVIN</h1>
+            <nav>
+                <ul class="dropdown">
+                    <li><a href="">Menu</a>
+                        <ul class="dropdown-content">
+                            
+                            <li><a href="home.html">About</style></a></li>
+                            <li><a href="#Hobbies">hobbies</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                          
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me </h2>
+            <div class="about-content">
+                <img src="oresi.jpg" alt="Matthew">  
+                <p><i> Hello! I'm an aspiring web developer passionate about coding and building websites.As a young youth I involve my self <br>
+                in veriose activities like sports and socialising with people. </i> <br> <i> I am always learning new skills and improving my craft.</i></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Hobbies">
+        <div class="container">
+            <h2><b> MY HOBBIES </b></h2>
+            <div class=" hobbies">
+                <div class=" hobbie-content">
+                    <img src=" alond friend 4.jpg" alt=" hobbie 1" style="border-radius:30%;">
+                    <div class="hobbie-description">
+                        <h3><i>Hobbie 1; </i></h3>   
+                        <p><b>This is a description of my first  hobbie.socialising with people making good friends,<br>
+               and bringing about the spiritr of brotherwood. <br>
+             wich also helps me to know alot concerning my community.</b></p>
+                    </div>
+                </div>
+             </div>
+            <div class=" hobbie-reverse">
+                <div class=" hobbie-content">
+                    <div class=" hobbie-description">
+                        <h3><i> Hobbie 2;</i></h3>
+                        <p><b> This is a description of my second hobbie.Sporting,this helps me to relax and calm down. <br>
+                        Most of the time I like involving in rugby since it makes me feel good and strong.</b></p>
+                    </div>
+                    <img src="sportss.jpg " alt=" hobbie 2" style="border-radius:20%;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 ORESI. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
